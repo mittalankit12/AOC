@@ -12,7 +12,7 @@ func main() {
 	file, err := os.Open("input.txt")
 
 	if err != nil {
-		fmt.Println("errors")
+		fmt.Println("error")
 		return
 	}
 
